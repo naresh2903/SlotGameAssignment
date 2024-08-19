@@ -75,7 +75,8 @@ To test the API, you can use Postman or any other API testing tool.
 - **Request Body**:
   ```json
   {
-  	"bet": 1
+  	"bet": 1,
+  	"force": [] // place for forcing random numbers or rngs
   }
   ```
 - **Response**:
